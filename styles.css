@@ -1,6 +1,8 @@
 body{
     background-color: #BBB;
+    
 }
+
 .selections{
     display:flex;
     justify-content: center;
@@ -17,7 +19,7 @@ body{
     background: none;
     outline:none;
     transition:200ms;
-    font-size: .5rem;
+    font-size: 2.5rem;
     cursor:pointer;
 }
 .selection{
@@ -25,7 +27,7 @@ body{
     background: none;
     outline:none;
     cursor:pointer;
-    font-size: 2.5rem;
+    font-size: 10rem;
     transition:200ms;
 }
 
@@ -43,18 +45,20 @@ body{
     justify-items: center;
     align-items: center;
     margin-top: 1rem;
+    font-size: 3.5rem;
 }
 
 .result-score{
     margin-left: .1rem;
-    font-size: .5rem;
+    font-size: 2rem;
     color:#222;
 }
 
 .result-selection{
     opacity:.5;
+    font-size: 3rem;
 }
 .result-selection.winner{
     opacity:1;
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
